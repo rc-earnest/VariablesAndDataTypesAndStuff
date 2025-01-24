@@ -33,8 +33,15 @@ Module VariablesAndDataTypesAndStuff
         studentName = "7"
 
         jellyBeans = CInt(studentName)
-
         Console.WriteLine()
+
+        Dim userInput As String
+
+        Console.WriteLine("Please enter a fruit.")
+        userInput = Console.ReadLine()
+
+        'Console.WriteLine(userInput & " That is a terrible fruit!")
+        Console.WriteLine($"You entered: {userInput}!")
     End Sub
 
 End Module
